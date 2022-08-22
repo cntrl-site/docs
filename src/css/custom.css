@@ -14,17 +14,36 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-footer-background-color: #000000;
+  --ifm-footer-link-color: #1de65b;
+  --ifm-footer-title-color: #ffffff;
+  --ifm-font-family-base: AeonikPro;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #1de65b;
+  --ifm-color-primary-dark: #17d251;
+  --ifm-color-primary-darker: #16c64c;
+  --ifm-color-primary-darkest: #12a33f;
+  --ifm-color-primary-light: #34e96c;
+  --ifm-color-primary-lighter: #40ea74;
+  --ifm-color-primary-lightest: #63ee8e;
+  --ifm-footer-background-color: red;
+  --ifm-font-family-base: AeonikPro;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: AeonikPro;
+  font-weight: 400;
+  src: url('/static/AeonikPro-Regular.woff2') format('woff2');
+}
+
+
+@font-face {
+  font-family: AeonikPro;
+  font-weight: 700;
+  src: url('/static/AeonikPro-Bold.woff2') format('woff2');
 }
