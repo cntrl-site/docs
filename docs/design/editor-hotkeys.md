@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Editor Hotkeys
 
-### Working with items/selection
+### Items/selection
 
 - `Cmd+[` - send backward
 - `Cmd+]` - send forward
