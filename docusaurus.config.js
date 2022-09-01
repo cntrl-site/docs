@@ -81,29 +81,12 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Slack',
+                href: 'https://join.slack.com/share/enQtNDAwODU0MjU0MjExOS02ZDQ3NjNmZDBjM2Y3NmMwOGI2MjUwYTgxYWY1NDc3MDQxODlmZmFiOGE5Njk5MGI1ODRhOGQ3MDJkOTc0Yjg2',
+              }
             ],
           },
           {
