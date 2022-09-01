@@ -4,11 +4,20 @@ sidebar_position: 2
 
 # Editor Hotkeys
 
-### Items
+### Working with items/selection
 
 - `Cmd+[` - send backward
 - `Cmd+]` - send forward
-- `Cmd+Shift+[` - send to back
-- `Cmd+Shift+[` - send to front
+- `Alt+Drag` - Duplicate and move selection
+- `Cmd+Z` - Undo action
+- `Cmd+Shift+Z` - Redo action
+- `Arrow keys` - Move selection
+- `Shift+Arrow keys` - Nudge selection by micro 
+- `R` - toggle Rectangle tool
+- `T` - toggle Text tool
+- `Cmd+D` - Duplicate selection
+- `Cmd+C/Cmd+V` - Copy/paste selection
 
-### Sections
+### UI
+- `Ctrl+H` - show/hide UI
+- `Ctrl+G` - toggle between three grid states: grid+panel, grid, no grid
