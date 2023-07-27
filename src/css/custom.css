@@ -6,6 +6,9 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-background-color: #1B1B1B;
+  --ifm-font-color-base: #ffffff;
+  --ifm-heading-color: #FAC000;
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -13,11 +16,18 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+  --ifm-footer-link-hover-color: #01EA40;
+  --ifm-code-background: #626262;
   --ifm-code-font-size: 95%;
-  --ifm-footer-background-color: #000000;
-  --ifm-footer-link-color: #1de65b;
+  --ifm-link-color: #FAC000;
+  --ifm-footer-background-color: #9B00EF;
+  --ifm-footer-link-color: #FAC000;
+  --ifm-menu-color-active: #9B00EF;
+  --ifm-footer-color: #ffffff;
   --ifm-footer-title-color: #ffffff;
-  --ifm-font-family-base: AeonikPro;
+  --ifm-navbar-background-color: #9B00EF;
+  --ifm-navbar-link-hover-color: #FAC000;
+  --ifm-font-family-base: 'input-mono-condensed', monospace;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -35,15 +45,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-@font-face {
-  font-family: AeonikPro;
-  font-weight: 400;
-  src: url('/static/AeonikPro-Regular.woff2') format('woff2');
+.menu {
+  background-color: #FAC000;
 }
 
-
-@font-face {
-  font-family: AeonikPro;
-  font-weight: 700;
-  src: url('/static/AeonikPro-Bold.woff2') format('woff2');
+.container {
+  margin-left: 0;
 }
