@@ -4,3 +4,5 @@ slug: /connect-a-repository
 ---
 
 # Connect a repository
+
+# Configure CI

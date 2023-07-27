@@ -20,3 +20,16 @@ Then clone the repository to your computer. We're working on a CLI generator to 
 - Click "COPY ENV VARS" button. This will copy all necessary variables to the buffer.
 - In the NextJS root folder, create a file called `.env.local`
 - Paste the copied variables into this file
+
+### Start the dev server
+To start the server locally, running this command in your terminal from the project root folder:
+```
+npm run dev
+```
+You should see your website up and running at [https://localhost:3005](https://localhost:3005).
+Note, if you're trying to run the Control project that already has some custom code involved, you may want to also run this command: 
+```
+npm run generate-layouts
+```
+More on this in the [Styling section](/writing-styles).
+
