@@ -5,4 +5,7 @@ slug: /connect-a-repository
 
 # Connect a repository
 
+TODO 
+
 # Configure CI
+Explain how site builds work
