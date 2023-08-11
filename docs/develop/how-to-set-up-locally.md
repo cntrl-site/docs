@@ -22,7 +22,7 @@ Then clone the repository to your computer. We're working on a CLI generator to 
 - Paste the copied variables into this file
 
 ### Start the dev server
-To start the server locally, running this command in your terminal from the project root folder:
+To start the server locally, run this command in your terminal from the project root folder:
 ```
 npm run dev
 ```

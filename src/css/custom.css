@@ -19,7 +19,7 @@
   --ifm-footer-link-hover-color: #01EA40;
   --ifm-code-background: #626262;
   --ifm-code-font-size: 95%;
-  --ifm-link-color: #FAC000;
+  --ifm-link-color: #00FB40;
   --ifm-footer-background-color: #9B00EF;
   --ifm-footer-link-color: #FAC000;
   --ifm-menu-color-active: #9B00EF;
@@ -29,6 +29,7 @@
   --ifm-navbar-link-hover-color: #FAC000;
   --ifm-font-family-base: 'input-mono-condensed', monospace;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-h3-font-size: 16px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -43,6 +44,7 @@
   --ifm-footer-background-color: red;
   --ifm-font-family-base: AeonikPro;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-h3-font-size: 16px;
 }
 
 .menu {
@@ -51,4 +53,12 @@
 
 .container {
   margin-left: 0;
+}
+
+h1, h3 {
+  font-size: 16px;
+}
+
+.docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
+  max-width: 700px !important;
 }
