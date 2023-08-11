@@ -20,6 +20,10 @@
   --ifm-code-background: #626262;
   --ifm-code-font-size: 95%;
   --ifm-link-color: #00FB40;
+  --ifm-pagination-nav-color-hover: #00FB40;
+  --ifm-menu-color: #1B1B1B;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-padding-horizontal: 10px;
   --ifm-footer-background-color: #9B00EF;
   --ifm-footer-link-color: #FAC000;
   --ifm-menu-color-active: #9B00EF;
@@ -57,6 +61,15 @@
 
 h1, h3, p, li {
   font-size: 18px;
+  line-height: 30px;
+}
+
+.navbar__logo {
+  height: 60px;
+}
+
+.navbar {
+  box-shadow: none;
 }
 
 .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
