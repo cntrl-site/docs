@@ -55,8 +55,8 @@
   margin-left: 0;
 }
 
-h1, h3 {
-  font-size: 16px;
+h1, h3, p, li {
+  font-size: 18px;
 }
 
 .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
