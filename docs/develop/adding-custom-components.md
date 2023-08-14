@@ -3,7 +3,7 @@ sidebar_position: 60
 slug: /adding-custom-components
 ---
 
-# Custom Components
+# Custom components
 
 One of the ways to customize Control page with your code  
 is adding Custom Components.

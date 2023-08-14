@@ -3,7 +3,7 @@ sidebar_position: 50
 slug: /writing-styles
 ---
 
-# Writing Styles
+# Writing styles
 
 You can use any styling approach you prefer:  
 Tailwind, CSS-in-JS, inline styles etc. However,  
