@@ -19,7 +19,7 @@
   --ifm-footer-link-hover-color: #01EA40;
   --ifm-code-background: #626262;
   --ifm-code-font-size: 95%;
-  --ifm-link-color: #00FB40;
+  --ifm-link-color: rgba(0, 251, 64, 0.7);
   --ifm-pagination-nav-color-hover: #00FB40;
   --ifm-menu-color: #00FB40;
   --ifm-navbar-padding-vertical: 0;
