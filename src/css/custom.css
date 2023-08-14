@@ -76,3 +76,7 @@ h1, h3, p, li {
 .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module {
   max-width: 700px !important;
 }
+
+.pagination-nav__link {
+  border-width: 0;
+}
