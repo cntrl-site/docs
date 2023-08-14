@@ -21,12 +21,13 @@
   --ifm-code-font-size: 95%;
   --ifm-link-color: #00FB40;
   --ifm-pagination-nav-color-hover: #00FB40;
-  --ifm-menu-color: #1B1B1B;
+  --ifm-menu-color: #00FB40;
   --ifm-navbar-padding-vertical: 0;
   --ifm-navbar-padding-horizontal: 10px;
   --ifm-footer-background-color: #9B00EF;
   --ifm-footer-link-color: #FAC000;
-  --ifm-menu-color-active: #9B00EF;
+  --ifm-menu-color-active: #FAC000;
+  --ifm-menu-color-background-active: #9B00EF;
   --ifm-footer-color: #ffffff;
   --ifm-footer-title-color: #ffffff;
   --ifm-navbar-background-color: #9B00EF;
@@ -52,7 +53,7 @@
 }
 
 .menu {
-  background-color: #FAC000;
+  background-color: #1B1B1B;
 }
 
 .container {
