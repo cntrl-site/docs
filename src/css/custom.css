@@ -24,13 +24,13 @@
   --ifm-menu-color: rgba(0, 251, 64, 0.7);
   --ifm-navbar-padding-vertical: 0;
   --ifm-navbar-padding-horizontal: 10px;
-  --ifm-footer-background-color: #9B00EF;
+  --ifm-footer-background-color: #1B1B1B;
   --ifm-footer-link-color: #FAC000;
   --ifm-menu-color-active: #FAC000;
-  --ifm-menu-color-background-active: #9B00EF;
+  --ifm-menu-color-background-active: transparent;
   --ifm-footer-color: #ffffff;
   --ifm-footer-title-color: #ffffff;
-  --ifm-navbar-background-color: #9B00EF;
+  --ifm-navbar-background-color: #1B1B1B;
   --ifm-navbar-link-hover-color: #FAC000;
   --ifm-font-family-base: 'input-mono-condensed', monospace;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
