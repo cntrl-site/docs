@@ -54,6 +54,12 @@
 
 .menu {
   background-color: #1B1B1B;
+  padding-top: 69px !important;
+}
+
+.container {
+  padding-top: 69px !important;
+  padding-left: 100px !important;
 }
 
 .menu__link:hover {
@@ -67,6 +73,7 @@
 h1, h3, p, li {
   font-size: 18px;
   line-height: 30px;
+  font-weight: 500;
 }
 
 .navbar__logo {
