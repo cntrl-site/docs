@@ -30,11 +30,12 @@
   --ifm-menu-color-background-active: transparent;
   --ifm-footer-color: #ffffff;
   --ifm-footer-title-color: #ffffff;
-  --ifm-navbar-background-color: #1B1B1B;
+  --ifm-navbar-background-color: transparent;
   --ifm-navbar-link-hover-color: #FAC000;
   --ifm-font-family-base: 'input-mono-condensed', monospace;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-h3-font-size: 16px;
+  --ifm-toc-border-color: transparent;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
