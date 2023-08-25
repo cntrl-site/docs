@@ -15,7 +15,7 @@ from [here](https://nodejs.org/en/download). You’ll need Node.js version 14 or
 ### Run the CLI
 In your console, run the following command:
 ```
-npx create-cntrl-site -p <name-of-your-project>
+npx create-cntrl-site@latest -p <name-of-your-project>
 ```
 This command will ask you for one environment variable.
 - Go to [Control CMS](https://app.cntrl.site), access the Project Dashboard.
