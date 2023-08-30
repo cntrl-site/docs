@@ -23,7 +23,7 @@ a published page.
 ![Toolbar](../../static/img/custom-item-in-toolbar.jpg)
 
 3. Drag on the page to create an area
-4. Name your custom component in the properties panel
+4. Name your custom component by double-clicking on it
 
 ![Toolbar](../../static/img/name.jpg)
 
