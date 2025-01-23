@@ -13,12 +13,14 @@ within a page using Editor and render a fully hand-coded
 React component version of an item.
 
 In Beta, users of an Editor will not be able to see the  
-registered component - it will only be visible on  
+registered component - it will only be visible on 
 a published page.
 
-# How to add Custom Items
-1. In Editor, go to any page within your Control project.
-2. In toolbar in the top left corner, click on the puzzle icon
+# Adding Custom components
+1. Go to Account Settings and make sure the "dev mode" is enabled.
+![Account Settings](../../static/img/account-settings.jpg)
+2. In the Editor, go to any page within your Control project.
+3. In the toolbar in the top left corner, click on the puzzle icon
 
 ![Toolbar](../../static/img/custom-item-in-toolbar.jpg)
 
