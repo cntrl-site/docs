@@ -13,9 +13,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  stylesheets: [
-    'https://use.typekit.net/mct6ccn.css'
-  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
