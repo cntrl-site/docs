@@ -6,9 +6,7 @@ sidebar_position: 75
 
 Connect your forms to email marketing platforms and webhooks. Select an integration in the Form settings panel, enter your credentials, and you're ready to collect submissions.
 
-:::tip Testing
 After you've finished adding an integration, you can test your form by submitting a test email from your website, staging preview, or right in the editor.
-:::
 
 ---
 
