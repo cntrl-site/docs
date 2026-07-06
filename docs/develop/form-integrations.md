@@ -134,7 +134,7 @@ Only the `email` field is sent. Other form fields are not forwarded to Beehiiv.
 
 ---
 
-## Email Send
+## Send Email
 
 Receive every form submission by email — no third-party account or credentials required.
 
@@ -142,12 +142,14 @@ Receive every form submission by email — no third-party account or credentials
 - One or more email addresses to be notified
 
 **Setup:**
-1. In the integration panel, select Email Send.
+1. In the integration panel, select Send Email.
 2. Enter the addresses that should receive submissions, separated by commas:
 
 ```
 receiver1@gmail.com, receiver2@gmail.com
 ```
+
+3. Optionally, enable **Notify Sender** to send a confirmation email to the person who submitted the form. The confirmation says "We have received your submission and will get back to you shortly." and includes a copy of their submission.
 
 **How data is sent:**
 Each submission is delivered as an email to every address on the list. The email includes:
