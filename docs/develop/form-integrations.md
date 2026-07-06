@@ -4,7 +4,7 @@ sidebar_position: 75
 
 # Form integrations
 
-Connect your forms to email marketing platforms and webhooks. Select an integration in the Form settings panel, enter your credentials, and you're ready to collect submissions.
+Connect your forms to email notifications, email marketing platforms, and webhooks. Select an integration in the Form settings panel, enter your credentials, and you're ready to collect submissions.
 
 After you've finished adding an integration, you can test your form by submitting a test email from your website, staging preview, or right in the editor.
 
@@ -131,3 +131,28 @@ Subscribe readers to a [Beehiiv](https://www.beehiiv.com) publication.
 Only the `email` field is sent. Other form fields are not forwarded to Beehiiv.
 
 **Reference:** [Beehiiv Subscriptions API](https://developers.beehiiv.com/docs/v2/create-subscription)
+
+---
+
+## Email Send
+
+Receive every form submission by email — no third-party account or credentials required.
+
+**You will need:**
+- One or more email addresses to be notified
+
+**Setup:**
+1. In the integration panel, select Email Send.
+2. Enter the addresses that should receive submissions, separated by commas:
+
+```
+receiver1@gmail.com, receiver2@gmail.com
+```
+
+**How data is sent:**
+Each submission is delivered as an email to every address on the list. The email includes:
+
+- The site the form was submitted on and the sender's name (or email) in the subject line — useful when you run forms on more than one site.
+- All submitted fields, listed as name–value pairs.
+
+When the submission contains an email address, it is set as the **Reply-To** of the notification, so you can reply to the message to respond to the person directly.
