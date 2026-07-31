@@ -66,6 +66,32 @@ The generated sitemap contains every page in your project, except:
 - Pages that were set as drafts.
 - Pages with password protection enabled.
 
+## Adding custom-coded pages
+
+If your repo has routes that aren't Control pages (for example a  
+custom Next.js page at `/templates`), they won't appear in the  
+sitemap automatically. Include them with the `--extra` flag on  
+the `generate-sitemap` script in `package.json`:
+
+```
+"generate-sitemap": "cntrl-sdk generate-sitemap -o public --extra templates,tutorials"
+```
+
+You can also set a `SITEMAP_EXTRA_PATHS` environment variable  
+instead of (or in addition to) the flag:
+
+```
+SITEMAP_EXTRA_PATHS=templates,tutorials
+```
+
+Paths are comma-separated slugs without a leading slash. They are  
+merged with Control pages and deduplicated. Unlike Control pages,  
+extra paths are always included — they aren't filtered by draft  
+or password-protection status.
+
+You can add `SITEMAP_EXTRA_PATHS` from your Project Dashboard. See  
+[Adding custom env variables](/add-variables) for details.
+
 ## Verifying it works
 
 Once deployed, you can verify:

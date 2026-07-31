@@ -22,3 +22,7 @@ content at build time. Always set.
 - `SITE_URL` — optional override for the canonical site origin used  
 in `sitemap.xml`, `robots.txt`, and `<link rel="canonical">` tags.  
 See [SEO](/seo) for details.
+- `SITEMAP_EXTRA_PATHS` — optional comma-separated path slugs to  
+include in `sitemap.xml` alongside Control pages (e.g.  
+`templates,tutorials`). Useful for custom-coded routes that aren't  
+Control pages. See [SEO](/seo) for details.
