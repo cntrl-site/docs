@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Control',
   tagline: 'A unified environment for web studios, created for and by actual designers and developers.',
-  url: 'https://cntrl.site',
+  url: 'https://docs.cntrl.site',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
