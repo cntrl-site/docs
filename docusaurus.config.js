@@ -10,6 +10,7 @@ const config = {
   tagline: 'A unified environment for web studios, created for and by actual designers and developers.',
   url: 'https://docs.cntrl.site',
   baseUrl: '/',
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
