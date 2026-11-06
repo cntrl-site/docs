@@ -4,6 +4,19 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+/**
+ * A category whose title opens a doc also lists that doc first, under its sidebar label: the
+ * default generator leaves it out of the category's items, so it could only be reached by the title.
+ */
+function withLinkedDocsListed(items) {
+  return items.map((item) => {
+    if (item.type !== 'category') return item;
+    const children = withLinkedDocsListed(item.items);
+    const linked = item.link?.type === 'doc' ? [{ type: 'doc', id: item.link.id }] : [];
+    return { ...item, items: [...linked, ...children] };
+  });
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Control',
@@ -37,6 +50,9 @@ const config = {
           routeBasePath: '/',
           breadcrumbs: false,
           sidebarPath: require.resolve('./sidebars.js'),
+          async sidebarItemsGenerator({ defaultSidebarItemsGenerator, ...args }) {
+            return withLinkedDocsListed(await defaultSidebarItemsGenerator(args));
+          },
           // Please change this to your repo.
         },
         theme: {
